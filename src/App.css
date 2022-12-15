@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.Pagewrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 100vh;
+    width: 100%;
+    color:white;
+}
+body{
+    background-color: #333;
+}
+.Logodiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Logodiv h2{
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 10px;
+}
+.Logodiv h3{
+    display: flex;
+   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Importer{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 25px;
+    border-radius: 10px;
+}
+.Importer input{
+    width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.loginform{
+   display:flex;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   
 }
 
-.App-link {
-  color: #61dafb;
+.logindiv{
+    display: flex;
+    color:White;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 11px 22px black;
+}
+.logindiv input{
+    height: 22px;
+    margin-top: -12px;
+    width: 250px;
+}
+.logindiv button{
+    width: 150px;
+    background-color: #005094;
+    padding: 10px 15px;
+    color:whitesmoke;
+    border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logindiv button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.logindiv-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
